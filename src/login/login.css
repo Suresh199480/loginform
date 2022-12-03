@@ -1,0 +1,245 @@
+.signup-container {
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signup-container .sign-left {
+    width: 50%;
+    background-color: #2B65EC;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.signup-container .sign-right {
+    width: 50%;
+    background-color: #fff;
+    height: 600px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.sign-left .images {
+    position: relative;
+    top: 10%;
+    transform: translateX(-10%);
+}
+
+.images img {
+    border-radius: 10px;
+}
+
+.pic1 {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+}
+
+.pic2 {
+    width: 200px;
+    height: 100px;
+    margin-top: 60px;
+    z-index: 1;
+}
+
+.texts {
+    margin-top: 150px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.texts .title {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.texts .desc {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #98EFC7;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+}
+
+.lines {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-bottom: 30px;
+}
+
+.lines li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.lines li:nth-child(1) {
+    width: 80px;
+    height: 2px;
+    background-color: #98EFC7;
+    opacity: 0.5;
+}
+
+.lines li:nth-child(2),
+li:nth-child(3) {
+    width: 40px;
+    height: 2px;
+    background-color: #98EFC7;
+    opacity: 0.5;
+}
+
+.knowmore-btn {
+    text-decoration: none;
+    padding: 12px 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    border-radius: 50px;
+    color: #2B65EC;
+    font-size: 12px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-menu div {
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-menu .log-sign-btn {
+    padding: 8px 15px;
+    background-color: #2B65EC;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.sign-texts,
+.form-section {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-texts .sign-heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sign-texts .sub-heading {
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+
+.inputwith-icon input[type=email],
+.inputwith-icon input[type=password],
+.inputwith-icon input[type=date] {
+    padding-left: 40px;
+}
+
+.inputwith-icon {
+    position: relative;
+}
+
+input[type=email],
+input[type=password],
+input[type=date] {
+    width: 80%;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+}
+
+input[type=email],
+input[type=password],
+input[type=date]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px #aaa;
+    color: #2B65EC;
+}
+
+.inputwith-icon i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: #2B65EC;
+}
+
+.sign-btns {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.sign-btns .btn {
+    margin: 5px 0;
+    width: 80%;
+    padding: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sign-btns .btn:focus {
+    outline: none;
+}
+
+.sign-btns .btn:nth-child(1) {
+    background-color: #2B65EC;
+    color: #fff;
+}
+
+.fa-facebook {
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 35%;
+    text-align: center;
+    font-size: 18px;
+    color: #2B65EC;
+}
+
+.fa-google {
+    position: absolute;
+    right: 0;
+    margin-top: 95px;
+    margin-right: 35%;
+    color: rgb(52, 168, 83);
+}
+
+.signup-link {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 27%;
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: #2B65EC;
+}
